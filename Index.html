@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deepak Kumawat - Portfolio</title>
+  <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+
+  <button class="toggle-btn" onclick="toggleDarkMode()">🌙</button>
+
+  <header class="fade-in">
+    <img src="dd.jpg" alt="Deepak Kumawat" class="profile-pic" />
+    <h1>Deepak S. Kumawat</h1>
+    <p>Flutter Developer | Java Enthusiast | AI & App Innovator</p>
+  </header>
+
+  <nav class="fade-in">
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <<section id="about" class="fade-in">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate Flutter developer with a knack for solving real-world problems...
+    </p>
+    <a href="Deepak-Resume.pdf" download class="resume-btn">📄 Download Resume</a>
+  </section>
+  
+
+  <section id="skills" class="fade-in">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Java, Python, Dart, SQL</li>
+      <li><strong>Development:</strong> HTML, CSS, Flutter, MediaQuery</li>
+      <li><strong>Tools:</strong> GitHub, VS Code, Android Studio, IntelliJ IDEA</li>
+      <li><strong>Coursework:</strong> DBMS, OOPS, Computer Networks</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="fade-in">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Well Dine Bistro Management</strong><br>
+        <a href="https://github.com/DeepaKumawat89/Well-Dine-Birstro-management" target="_blank">GitHub Link</a><br>
+        Manages mess/food services for students with a searchable platform.
+      </li>
+      <li>
+        <strong>Women Safety App</strong><br>
+        <a href="https://github.com/DeepaKumawat89/press2safety" target="_blank">GitHub Link</a><br>
+        Flutter app using Firestore with real-time emergency communication.
+      </li>
+      <li>
+        <strong>AI-Powered Assistive System for the Visually Impaired</strong><br>
+        <a href="https://github.com/DeepaKumawat89/AI-Powered-Assistive-System-for-the-Visually-Impaired" target="_blank">GitHub Link</a><br>
+        Real-time object detection, voice navigation, and text-to-speech via Jetson Xavier NX.
+      </li>
+    </ul>
+  </section>
+
+  <section id="experience" class="fade-in">
+    <h2>Experience</h2>
+    <p><strong>Flutter Developer Intern – SIBIC (Apr 2024 - Dec 2024)</strong></p>
+    <ul>
+      <li>Built a Flutter app for managing visitors, maintenance, and billing.</li>
+      <li>Connected to a Java Spring Boot backend using RESTful APIs.</li>
+      <li>Used GetX for responsive state management.</li>
+    </ul>
+  </section>
+
+  <section id="education" class="fade-in">
+    <h2>Education</h2>
+    <p>
+      <strong>B.Tech in Computer Science and Engineering</strong><br>
+      D.Y. Patil College of Engineering and Technology, Kolhapur (2021–2025)<br>
+      CGPA: 7.67/10
+    </p>
+  </section>
+
+  <section id="contact" class="fade-in">
+    <h2>Contact</h2>
+    <form id="contactForm" onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-status"></p>
+    <p>Email: <a href="mailto:deepakkumawat31434@gmail.com">deepakkumawat31434@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/deepak-kumawat01/" target="_blank">linkedin.com/in/deepak-kumawat01</a></p>
+    <p>GitHub: <a href="https://github.com/DeepaKumawat89" target="_blank">github.com/DeepaKumawat89</a></p>
+  </section>
+
+  <footer class="fade-in">
+    <p>&copy; 2025 Deepak S. Kumawat</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
